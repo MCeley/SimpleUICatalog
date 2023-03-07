@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Simple UI Catalog</string>
+
+    <string name="add_item">Add Item</string>
+    <string name="span_text_click">Span Text Click</string>
+    <string name="simple_text_click">Simple Text Click</string>
+    <string name="simple_button_click">Simple Button Click</string>
+    <string name="email_button">Email Button</string>
+    <string name="email_image">Email Image</string>
 </resources>
