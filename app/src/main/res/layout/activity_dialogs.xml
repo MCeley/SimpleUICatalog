@@ -87,8 +87,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="1"
-        android:tag="heapIgnoreInteractions">
+        android:weightSum="1">
 
         <Button android:id="@+id/button_time_basic"
             android:layout_width="0dp"
@@ -112,8 +111,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="1"
-        android:tag="heapIgnoreInteractions">
+        android:weightSum="1">
 
         <Button android:id="@+id/button_time_fragment"
             android:layout_width="0dp"
