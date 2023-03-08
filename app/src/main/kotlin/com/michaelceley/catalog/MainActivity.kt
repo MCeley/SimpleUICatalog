@@ -8,15 +8,18 @@ import android.view.View
 import android.view.View.OnClickListener
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.michaelceley.catalog.screens.AdapterViewActivity
 import com.michaelceley.catalog.screens.BasicClicksActivity
 
 class MainActivity : AppCompatActivity() {
 
     companion object {
         val screens = listOf<Pair<String, Class<*>>>(
-            "Basic Clickable Views" to BasicClicksActivity::class.java
+            "Basic Clickable Views" to BasicClicksActivity::class.java,
+            "Adapter Views" to AdapterViewActivity::class.java
         )
     }
 
@@ -29,6 +32,12 @@ class MainActivity : AppCompatActivity() {
                 this@MainActivity,
                 LinearLayoutManager.VERTICAL,
                 false
+            )
+            addItemDecoration(
+                DividerItemDecoration(
+                    this@MainActivity,
+                    LinearLayoutManager.VERTICAL
+                )
             )
             adapter = CatalogItemAdapter()
         }
