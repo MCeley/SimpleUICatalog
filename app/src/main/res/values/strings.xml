@@ -17,4 +17,8 @@
     <string name="time_picker_frag">Time Picker Fragment</string>
     <string name="date_picker_frag">Date Picker Fragment</string>
     <string name="other_dialogs">Other Dialogs</string>
+    <string name="edit_text_below">Edit Text Below</string>
+    <string name="enter_some_text">Enter Some Text</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="name">Name</string>
 </resources>

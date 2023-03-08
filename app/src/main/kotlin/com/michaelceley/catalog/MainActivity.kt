@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.michaelceley.catalog.screens.AdapterViewActivity
 import com.michaelceley.catalog.screens.BasicClicksActivity
 import com.michaelceley.catalog.screens.DialogPickerActivity
+import com.michaelceley.catalog.screens.EditFieldActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,7 +22,8 @@ class MainActivity : AppCompatActivity() {
         val screens = listOf<Pair<String, Class<*>>>(
             "Basic Clickable Views" to BasicClicksActivity::class.java,
             "Adapter Views" to AdapterViewActivity::class.java,
-            "Dialogs" to DialogPickerActivity::class.java
+            "Dialogs" to DialogPickerActivity::class.java,
+            "Edit Fields" to EditFieldActivity::class.java
         )
     }
 
