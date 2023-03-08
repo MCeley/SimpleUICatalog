@@ -11,10 +11,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.michaelceley.catalog.screens.AdapterViewActivity
-import com.michaelceley.catalog.screens.BasicClicksActivity
-import com.michaelceley.catalog.screens.DialogPickerActivity
-import com.michaelceley.catalog.screens.EditFieldActivity
+import com.michaelceley.catalog.screens.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,7 +20,8 @@ class MainActivity : AppCompatActivity() {
             "Basic Clickable Views" to BasicClicksActivity::class.java,
             "Adapter Views" to AdapterViewActivity::class.java,
             "Dialogs" to DialogPickerActivity::class.java,
-            "Edit Fields" to EditFieldActivity::class.java
+            "Edit Fields" to EditFieldActivity::class.java,
+            "Slider Controls" to SliderControlActivity::class.java
         )
     }
 

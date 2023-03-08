@@ -21,4 +21,7 @@
     <string name="enter_some_text">Enter Some Text</string>
     <string name="enter_your_name">Enter Your Name</string>
     <string name="name">Name</string>
+    <string name="seekbar">SeekBar</string>
+    <string name="slider">Slider</string>
+    <string name="range_slider">Range Slider</string>
 </resources>

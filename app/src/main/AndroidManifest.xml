@@ -26,6 +26,7 @@
         <activity android:name=".screens.AdapterViewActivity" android:exported="false" />
         <activity android:name=".screens.DialogPickerActivity" android:exported="false" />
         <activity android:name=".screens.EditFieldActivity" android:exported="false" />
+        <activity android:name=".screens.SliderControlActivity" android:exported="false" />
     </application>
 
 </manifest>
