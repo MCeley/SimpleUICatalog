@@ -24,4 +24,9 @@
     <string name="seekbar">SeekBar</string>
     <string name="slider">Slider</string>
     <string name="range_slider">Range Slider</string>
+    <string name="toggle_me">Toggle Me</string>
+    <string name="choose_an_option">Choose an option</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
 </resources>

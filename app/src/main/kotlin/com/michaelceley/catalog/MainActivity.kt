@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity() {
             "Adapter Views" to AdapterViewActivity::class.java,
             "Dialogs" to DialogPickerActivity::class.java,
             "Edit Fields" to EditFieldActivity::class.java,
-            "Slider Controls" to SliderControlActivity::class.java
+            "Slider Controls" to SliderControlActivity::class.java,
+            "Toggle Controls" to ToggleControlActivity::class.java
         )
     }
 
