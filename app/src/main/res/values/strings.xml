@@ -7,4 +7,14 @@
     <string name="simple_button_click">Simple Button Click</string>
     <string name="email_button">Email Button</string>
     <string name="email_image">Email Image</string>
+    <string name="basic_alert">Basic</string>
+    <string name="basic_list_alert">Basic List</string>
+    <string name="custom_list_alert">Custom List</string>
+    <string name="androidx_alertdialog">AndroidX AlertDialog</string>
+    <string name="built_in_alertdialog">Built-in AlertDialog</string>
+    <string name="time_picker">Time Picker</string>
+    <string name="date_picker">Date Picker</string>
+    <string name="time_picker_frag">Time Picker Fragment</string>
+    <string name="date_picker_frag">Date Picker Fragment</string>
+    <string name="other_dialogs">Other Dialogs</string>
 </resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:ignore="ButtonStyle" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/built_in_alertdialog" />
+
+    <Button android:id="@+id/button_alert_basic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/basic_alert" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button android:id="@+id/button_alert_list_basic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="4dp"
+            android:minHeight="48dp"
+            android:text="@string/basic_list_alert" />
+
+        <Button android:id="@+id/button_alert_list_custom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginStart="4dp"
+            android:minHeight="48dp"
+            android:text="@string/custom_list_alert" />
+
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/androidx_alertdialog" />
+
+    <Button android:id="@+id/button_alert_basic_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/basic_alert" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button android:id="@+id/button_alert_list_basic_x"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="4dp"
+            android:minHeight="48dp"
+            android:text="@string/basic_list_alert" />
+
+        <Button android:id="@+id/button_alert_list_custom_x"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginStart="4dp"
+            android:minHeight="48dp"
+            android:text="@string/custom_list_alert" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/other_dialogs" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:tag="heapIgnoreInteractions">
+
+        <Button android:id="@+id/button_time_basic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="4dp"
+            android:minHeight="48dp"
+            android:text="@string/time_picker" />
+
+        <Button android:id="@+id/button_date_basic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginStart="4dp"
+            android:minHeight="48dp"
+            android:text="@string/date_picker" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:tag="heapIgnoreInteractions">
+
+        <Button android:id="@+id/button_time_fragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="4dp"
+            android:minHeight="48dp"
+            android:text="@string/time_picker_frag" />
+
+        <Button android:id="@+id/button_date_fragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginStart="4dp"
+            android:minHeight="48dp"
+            android:text="@string/date_picker_frag" />
+
+    </LinearLayout>
+
+</LinearLayout>

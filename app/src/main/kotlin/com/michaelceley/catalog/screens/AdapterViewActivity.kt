@@ -15,13 +15,18 @@ class AdapterViewActivity : AppCompatActivity() {
     companion object {
 
         val names = listOf(
-            "Alcides",
-            "Andrew",
-            "Brian",
-            "Bryan",
-            "Jack",
-            "Jerry",
-            "Michael"
+            "Kristen",
+            "Jordan",
+            "Taylor",
+            "Michael",
+            "Travis",
+            "Tammy",
+            "Devon",
+            "Jackie",
+            "Cayman",
+            "Nisha",
+            "Donovan",
+            "Mason"
         )
     }
 
