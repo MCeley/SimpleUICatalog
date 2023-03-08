@@ -1,7 +1,6 @@
 package com.michaelceley.catalog.screens
 
 import android.os.Bundle
-import android.util.Log
 import android.widget.CheckBox
 import android.widget.RadioButton
 import android.widget.RadioGroup

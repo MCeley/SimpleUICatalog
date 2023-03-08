@@ -21,8 +21,6 @@ import com.michaelceley.catalog.util.Logger
 class DialogPickerActivity : AppCompatActivity() {
 
     companion object {
-        private const val TAG = "DialogCaptureActivity"
-        const val EXTRA_ANDROIDX = "io.heap.autocapture.example.EXTRA_ANDROIDX"
         private val numbers = arrayOf(
             "Zero", "One", "Two", "Three"
         )
